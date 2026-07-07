@@ -1,16 +1,144 @@
-# React + Vite
+# 🍔 FoodieHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FoodieHub is a full-stack food ordering web application built using the **MERN Stack**. It provides a modern and responsive platform where users can browse food items, view product details, add items to their cart, and place orders with ease.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* User Authentication (Register & Login)
+* Browse Food Items
+* Product Details Page
+* Add to Cart
+* Update Cart Quantity
+* Remove Items from Cart
+* Responsive Design
+* RESTful API Integration
+* MongoDB Database
+* Secure Backend using Express.js & Node.js
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* Tailwind CSS
+* React Router DOM
+* Axios
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+* Mongoose
+
+## 📂 Project Structure
+
+```
+FoodieHub/
+│── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+│── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── config/
+│   └── server.js
+│
+└── README.md
+```
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/foodiehub.git
+```
+
+### Navigate to the Project
+
+```bash
+cd foodiehub
+```
+
+### Install Frontend Dependencies
+
+```bash
+cd frontend
+npm install
+```
+
+### Install Backend Dependencies
+
+```bash
+cd ../backend
+npm install
+```
+
+## ▶️ Run the Application
+
+### Start Backend
+
+```bash
+npm start
+```
+
+or
+
+```bash
+npm run dev
+```
+
+### Start Frontend
+
+```bash
+cd ../frontend
+npm run dev
+```
+
+The application will typically run at:
+
+* Frontend: `http://localhost:5173`
+* Backend: `http://localhost:5000`
+
+## 📸 Screenshots
+
+Add screenshots of your application here.
+
+Example:
+
+* Home Page
+* Login Page
+* Product Details
+* Cart Page
+* Checkout Page
+
+## 🌱 Future Enhancements
+
+* Online Payment Gateway
+* Order Tracking
+* Wishlist
+* Search & Filter
+* Customer Reviews
+* Admin Dashboard
+* Order History
+
+## 👨‍💻 Author
+
+**S Al Rayan**
+
+GitHub: https://github.com/salrayan
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
