@@ -1,0 +1,12 @@
+
+MongoDB Setup:
+
+npm install express mongoose cors dotenv
+
+Example:
+
+const mongoose = require("mongoose");
+
+mongoose.connect("mongodb://127.0.0.1:27017/foodapp")
+.then(()=>console.log("MongoDB Connected"))
+.catch((err)=>console.log(err));

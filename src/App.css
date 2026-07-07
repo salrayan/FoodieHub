@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+}
+
+.theme-btn{
+  padding:8px 12px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  margin-right:10px;
+}
+
+.button-group{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.wish-btn{
+  background:#fff;
+  border:none;
+  font-size:20px;
+  cursor:pointer;
+}
+
+.dark-mode{
+  background:#121212;
+  color:white;
+}
+
+.dark-mode .card{
+  background:#1e1e1e;
+  color:white;
+}
+
+.dark-mode .navbar{
+  background:#222;
+}
+
+.dark-mode input{
+  background:#333;
+  color:white;
+}
+
+.dark-mode button{
+  background:#ff9800;
+  color:white;
+}
+
+
+.popular-section{
+  padding:20px;
+}
+
+.popular-list{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.popular-card{
+  background:orange;
+  color:white;
+  padding:15px;
+  border-radius:10px;
+  font-weight:bold;
+}
+
+.profile-box{
+  margin:20px;
+  padding:20px;
+  background:#f3f3f3;
+  border-radius:10px;
+}
+
+.coupon-box{
+  margin:20px;
+  padding:20px;
+  border:1px solid #ccc;
+  border-radius:10px;
+}
+
+.coupon-box input{
+  padding:10px;
+  margin-right:10px;
+}
